@@ -63,6 +63,6 @@ const outputRoomName = room => {
 //Add Users to DOM
 const outputUsers = users => {
     userList.innerHTML = `
-    ${users.map(user => `<li>${user.username}</li>`).join('')}
+    ${users.map(user => `<li><i class="fas fa-user"></i> ${user.username}</li>`).join('')}
     `;
 }

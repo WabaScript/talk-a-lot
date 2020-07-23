@@ -51,12 +51,13 @@ io.on('connection', socket => {
 
         if (user) {
             io.to(user.room).emit('message', formatMessage(botName, `${user.username} left the chat.`));
-        }
+        
         // Send users + room info
-        io.to(user.room).emit('roomUsers', {
-            room: user.room,
-            users: getRoomUsers(user.room)
-        });
+            io.to(user.room).emit('roomUsers', {
+                room: user.room,
+                users: getRoomUsers(user.room)
+            });
+        }
     });
 });
 
