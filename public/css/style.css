@@ -218,6 +218,12 @@ a {
 	width: 100%;
 }
 
+.join-main input:focus {
+    outline: none !important;
+    border:1px solid aqua;
+    box-shadow: 0 0 10px #719ECE;
+}
+
 .join-main select {
 	font-size: 16px;
 	padding: 5px;
@@ -228,6 +234,11 @@ a {
 .join-main .btn {
 	margin-top: 20px;
 	width: 100%;
+}
+
+.join-main .btn:hover {
+	border: medium;
+	border-color: rgba(255,255,255,1);
 }
 
 
