@@ -13,12 +13,15 @@ Live chat application
       </tr>
       <tr>
         <td align="center">
-          <a href="https://github.com/WabaScript/talk-a-lot"><img src="https://user-images.githubusercontent.com/59180399/88077254-0f6bde00-cb49-11ea-8f85-5e682eeae454.png" title="Index" alt="chat" width="75%" height="75%"></a>
+          <a href="https://github.com/WabaScript/talk-a-lot"><img src="https://user-images.githubusercontent.com/59180399/88254334-fe26ec80-cc82-11ea-874d-4f107362a545.png" title="Index" alt="chat" width="75%" height="75%"></a>
         </td>
         <td align="center">
-          <a href="https://github.com/WabaScript/talk-a-lot"><img src="https://user-images.githubusercontent.com/59180399/88077248-0d098400-cb49-11ea-92f5-56fe200bb580.png" title="Room" alt="chat" width="75%" height="75%"></a>
+          <a href="https://github.com/WabaScript/talk-a-lot"><img src="https://user-images.githubusercontent.com/59180399/88254335-00894680-cc83-11ea-910e-9be165dc9383.png" title="Room" alt="chat" width="75%" height="75%"></a>
         </td>
       </tr>
     </tbody>
   </table>
 </div>
+
+
+
