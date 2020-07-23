@@ -17,7 +17,6 @@
 
 body {
     font-family: 'Krub', sans-serif;
-    font-family: 'Lora', serif;
 	font-size: 15px;
 	background: var(--light-color);
 	margin: 20px;
@@ -74,6 +73,13 @@ a {
 	font-size: 17px;
 	align-items: center;
 	margin-left: 37.333%;
+	box-shadow: -1px 45px 89px -20px rgba(4,51,32,1);
+	transition: all 0.2s ease-in-out;
+}
+
+.btn-og:hover {
+	color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
 }
 
 /* Chat Page */
@@ -83,6 +89,9 @@ a {
 	background: #fff;
 	margin: 30px auto;
 	overflow: hidden;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	border-radius: 20px 20px 30px 30px;
+	
 }
 
 .chat-header {
@@ -165,6 +174,7 @@ a {
 .chat-form-container {
 	padding: 20px 30px;
 	background-color: var(--dark-color-a);
+	
 }
 
 .chat-form-container form {
@@ -183,11 +193,12 @@ a {
 	max-width: 500px;
 	margin: 80px auto;
 	color: #fff;
+
 }
 
 .join-header {
 	text-align: center;
-	padding: 20px;
+	padding: 14px;
 	background: var(--dark-color-a);
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
@@ -196,6 +207,10 @@ a {
 .join-main {
 	padding: 30px 40px;
 	background: var(--dark-color-b);
+	border-radius: 0px 0px 30px 30px;
+	-moz-border-radius: 0px 0px 30px 30px;
+	-webkit-border-radius: 0px 0px 30px 30px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .join-main p {

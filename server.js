@@ -24,7 +24,7 @@ io.on('connection', socket => {
         socket.join(user.room);
 
         // Welcome -- single client only
-        socket.emit('message', formatMessage(botName, 'Baby, Welcome to the party.'));
+        socket.emit('message', formatMessage(botName, `${user.username}, Welcome to the party.`));
     
         //Broadcast when user connects -- to all users except client connecting
         socket.broadcast.to(user.room).emit(
