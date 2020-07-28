@@ -3,8 +3,8 @@ Live chat application
 
 ## Hop into a Room!
 <h5> https://talk-a-lot.herokuapp.com/ </h5>
-## Or scan with your phone
 
+## Scan with your phone
 <a href="https://github.com/WabaScript/talk-a-lot"><img src="https://user-images.githubusercontent.com/59180399/88705561-b28a9d80-d0dd-11ea-8ff5-0faff77a9d45.png" title="Room" alt="chat" width="20%" height="20%"></a>
 
 <div align="center">
