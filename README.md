@@ -1,5 +1,5 @@
 # Talk-A-Lot
-Live chat application
+Live chat application implemented all in JavaScript!
 
 ## Hop into a Room!
 <h5> https://talk-a-lot.herokuapp.com/ </h5>
