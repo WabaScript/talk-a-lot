@@ -20,10 +20,20 @@ socket.on('roomUsers', ({room, users}) => {
     outputUsers(users);
 })
 
+// Notification Sound
+const messageSound = () => {
+    console.log("sound playing")
+    const audio = new Audio('../audio/swiftly_noti.mp3');
+    audio.play();
+}
+
 //Message from Server
 socket.on('message', message => {
     console.log(message);
     outputMessage(message);
+
+    // Notification sound
+    messageSound();
 
     //Scroll Down
     chatMessages.scrollTop =chatMessages.scrollHeight;
