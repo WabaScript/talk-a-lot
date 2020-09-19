@@ -33,7 +33,7 @@ socket.on('message', message => {
     outputMessage(message);
 
     // Notification sound
-    messageSound();
+    // messageSound();
 
     //Scroll Down
     chatMessages.scrollTop =chatMessages.scrollHeight;
@@ -73,6 +73,6 @@ const outputRoomName = room => {
 //Add Users to DOM
 const outputUsers = users => {
     userList.innerHTML = `
-    ${users.map(user => `<li><i class="fas fa-user"></i> ${user.username}</li>`).join('')}
+    ${users.map(user => `<li><i id="user-icon" class="fas fa-user"></i> ${user.username}</li>`).join('')}
     `;
 }

@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Krub&family=Lora&display=swap');
 
-
 :root {
 	--dark-color-a: #393e46;
 	--dark-color-b: #29a99c;
@@ -174,7 +173,6 @@ a {
 .chat-form-container {
 	padding: 20px 30px;
 	background-color: var(--dark-color-a);
-	
 }
 
 .chat-form-container form {
@@ -255,14 +253,123 @@ a {
 	border: medium;
 	border-color: rgba(255,255,255,1);
 }
+  
+  /*============ BOOTSTRAP BREAK POINTS:
+  
+  Extra small (xs) devices (portrait phones, less than 576px)
+  No media query since this is the default in Bootstrap
+  
+  Small (sm) devices (landscape phones, 576px and up)
+  @media (min-width: 576px) { ... }
+  
+  Medium (md) devices (tablets, 768px and up)
+  @media (min-width: 768px) { ... }
+  
+  Large (lg) devices (desktops, 992px and up)
+  @media (min-width: 992px) { ... }
+  
+  Extra (xl) large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) { ... }
+  
+  =============*/
 
 
-@media (max-width: 700px) {
-	.chat-main {
-		display: block;
+
+/*============= MEDIA QUERIES =============*/
+
+/* Devices under 1199px (xl) */
+@media (max-width: 1199.98px) {
+	
+}
+
+/* Devices under 992px (xl) */
+@media (max-width: 991.98px) {
+
+	
+}
+
+/* Devices under 768px (md) */
+@media (max-width: 767.98px) {
+
+
+}
+
+/* Devices under 576px (sm) */
+@media (max-width: 575.98px) {
+	body {
+		font-size: 10px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin: 30px, 7px, 20px, 7px;	
+	}
+
+	.chat-container {
+		max-width: 577px;
+		width: 280px;
+		background: #fff;
+		margin: 30px, 7px, 20px, 7px;
+		overflow: hidden;
+		box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+		border-radius: 20px 20px 30px 30px;
+	}
+
+	.chat-header h1,
+	.chat-header a {
+		font-size: 11px;
 	}
 
 	.chat-sidebar {
+		background: var(--dark-color-b);
+		color: #fff;
+		/* overflow-y: scroll; */
+	}
+	
+	.chat-sidebar h2 {
+		font-size: 8px;
+		background: rgba(0, 0, 0, 0.1);
+	}
+	
+	.chat-sidebar h3 {
+		font-size: 9px;
+		margin-bottom: 15px;
+		background-size: 100%;
+		padding: 2px;
+		border-radius: 3px;
+		background-color: var(--dark-color-a);
+		padding: 2.5px 5px;
+		width: calc(100% + 25px);
+		margin-left: -20px;
+	}
+	
+	.chat-sidebar ul li {
+		padding: 5px 0;
+	}
+
+	.chat-sidebar .room-name-box {
+		background-color: var(--dark-color-b);
+		padding: 2px;
+	}
+
+	.chat-sidebar .users-box {
+		background-color: var(--dark-color-b);
+		padding: 2px;
+	}
+
+	#user-icon {
 		display: none;
 	}
+	
+	.chat-messages .message .meta {
+		font-size: 10px;
+		font-weight: bold;
+		color: var(--dark-color-b);
+		opacity: 0.7;
+		margin-bottom: 7px;
+	}
+	
+	.chat-messages .message .meta span {
+		color: #777;
+	}
+	
 }
