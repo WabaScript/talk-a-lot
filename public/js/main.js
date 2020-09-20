@@ -36,7 +36,14 @@ socket.on('message', message => {
     // messageSound();
 
     //Scroll Down
-    chatMessages.scrollTop =chatMessages.scrollHeight;
+    chatMessages.scrollTop = chatMessages.scrollHeight;
+})
+
+// Keyboard fix for iPhones
+chatForm.addEventListener("focus", () => { 
+    e.preventDefault();
+    window.scrollTo(0, 0);
+    document.body.scrollTop = 0;
 })
 
 //Message Submit
